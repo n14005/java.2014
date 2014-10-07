@@ -10,7 +10,7 @@ class Ex1_0 extends Ex {
 
 class Ex1_2 extends Ex {
 	void execute(){
-		System.out.println("山\n内\n公\n之");
+		System.out.println("下\n地\n\n泰\n平");
 	}
 }
 
