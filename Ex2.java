@@ -19,7 +19,7 @@ class Ex2_0 extends Ex{
 		System.out.println("yの値は" + y + "です。");
         System.out.println("zの値は" + z + "です。");
 		System.out.println("合計は" + (x + y + z) + "です。");
-		System.out.println("平均は" + (x + y + z) / 2 + "です。");
+		System.out.println("平均は" + (x + y + z) / 3 + "です。");
 	}
 }
 
@@ -30,3 +30,7 @@ public class Ex2 {
 		a.execute();
 	}
 }
+
+
+
+
