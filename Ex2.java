@@ -5,6 +5,54 @@ abstract class Ex {
 	abstract void execute();
 }
 
+class Ex2_0 extends Ex{
+	void execute(){
+		int x;
+		int y;
+
+		x = 63;
+		y = 18;
+
+		System.out.println("xの値は" + x + "です。");
+		System.out.println("yの値は" + y + "です。");
+		System.out.println("合計は" + (x + y) + "です。");
+		System.out.println("平均は" + (x + y) / 2 + "です。");
+	}
+}
+
+class Ex2_1 extends Ex{
+	void execute(){
+		double x;
+		double y;
+
+		x = 63;
+		y = 18;
+
+		System.out.println("xの値は" + x + "です。");
+		System.out.println("yの値は" + y + "です。");
+		System.out.println("合計は" + (x + y) + "です。");
+		System.out.println("平均は" + (x + y) / 2 + "です。");
+	}
+
+}
+     class Ex2_2 extends Ex{
+      void execute(){
+       int x;
+       int y;
+       int z;
+
+       x = 63;
+       y = 18;
+       z = 20;
+
+       System.out.println("xの値は" + x + "です。");
+       System.out.println("yの値は" + y + "です。");
+       System.out.println("zの値は" + z + "です。");
+       System.out.println("合計は" + (x + y + z) + "です。");
+       System.out.println("平均は" + (x + y + z) / 3 + "です。");
+      }
+
+     }
 class Ex2_00 extends Ex{
 	void execute(){
 		Scanner stdIn = new Scanner(System.in);
@@ -41,10 +89,12 @@ public class Ex2 {
 /*
 		a = new Ex2_0();
 		a = new Ex2_00();
-*/
 		a = new Ex2_000();
+*/
+		a = new Ex2_2();
 		a.execute();
 	}
+
 }
 
 
