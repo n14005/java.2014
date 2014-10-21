@@ -91,8 +91,12 @@ public class Ex2 {
 		a = new Ex2_00();
 		a = new Ex2_000();
 */
+        a = new Ex2_0();
+        a = new Ex2_1();
 		a = new Ex2_2();
 		a.execute();
+        a.execute();
+        a.execute();
 	}
 
 }
