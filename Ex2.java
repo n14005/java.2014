@@ -5,24 +5,6 @@ abstract class Ex {
 	abstract void execute();
 }
 
-class Ex2_0 extends Ex{
-	void execute(){
-		int x;
-		int y;
-        int z;
-
-		x = 63;
-		y = 18;
-        z = 24;
-
-		System.out.println("xの値は" + x + "です。");
-		System.out.println("yの値は" + y + "です。");
-        System.out.println("zの値は" + z + "です。");
-		System.out.println("合計は" + (x + y + z) + "です。");
-		System.out.println("平均は" + (x + y + z) / 3 + "です。");
-	}
-}
-
 class Ex2_00 extends Ex{
 	void execute(){
 		Scanner stdIn = new Scanner(System.in);
@@ -31,7 +13,7 @@ class Ex2_00 extends Ex{
 
 		System.out.print("xの値：");		// xの値の入力を促す
 		int x = stdIn.nextInt();
-		
+
 		System.out.print("yの値：");		// yの値の入力を促す
 		int y = stdIn.nextInt();
 
