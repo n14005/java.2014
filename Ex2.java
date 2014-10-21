@@ -21,7 +21,7 @@ class Ex2_0 extends Ex{
 }
 
 class Ex2_1 extends Ex{
-	void execute(){
+	void execu(){
 		double x;
 		double y;
 
@@ -36,7 +36,7 @@ class Ex2_1 extends Ex{
 
 }
      class Ex2_2 extends Ex{
-      void execute(){
+      void exe(){
        int x;
        int y;
        int z;
@@ -95,8 +95,8 @@ public class Ex2 {
         a = new Ex2_1();
 		a = new Ex2_2();
 		a.execute();
-        a.execute();
-        a.execute();
+        a.execu();
+        a.exe();
 	}
 
 }
