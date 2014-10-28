@@ -73,6 +73,60 @@ class Ex2_00 extends Ex{
 	}
 }
 
+class Ex2_3 extends Ex{
+ void execute(){
+    Scanner  stdIn = new Scanner(System.in);
+ 
+      System.out.print("整数値: ");
+      int a= stdIn.nextInt();
+
+    System.out.println(a+"です。");
+ }  
+}
+
+class Ex2_4 extends Ex{
+  void execute(){
+    Scanner stdIn =new Scanner(System.in);
+
+      System.out.println("整数値です: ");
+      int a= stdIn.nextInt();
+
+      System.out.println( (a + 10) +"です。");
+      System.out.println( (a - 10) +"です。");
+  }
+}
+
+class Ex2_5 extends Ex{
+    void execute (){
+  
+     Scanner stdIn = new Scanner(System.in);
+
+     System.out.print("xの数値:");
+     double x = stdIn.nextDouble();
+
+     System.out.print("yの数値:");
+     double y = stdIn.nextDouble();
+
+     System.out.println("和は"+(x + y)+"です。");
+     System.out.println("平均は"+(x + y )/2+"です。");
+    }
+}
+
+class Ex2_6 extends Ex{
+    void execute(){
+      
+      Scanner stdIn = new Scanner(System.in);
+
+      System.out.print("底辺:");
+      double x = stdIn.nextDouble();
+
+      System.out.print("高さ:");
+      double y = stdIn.nextDouble();
+
+      System.out.println("面積は"+ (x * y)/2 + "です。");  
+    }
+}    
+
 class Ex2_000 extends Ex{
 	void execute(){
 		Random rand = new Random();
@@ -96,6 +150,14 @@ public class Ex2 {
         a = new Ex2_1();
         a.execute();
         a = new Ex2_2();
+        a.execute();
+        a = new Ex2_3();
+        a.execute();
+        a = new Ex2_4();
+        a.execute();
+        a = new Ex2_5();
+        a.execute();
+        a = new Ex2_6();
         a.execute();
 	}
 
