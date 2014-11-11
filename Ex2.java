@@ -125,7 +125,43 @@ class Ex2_6 extends Ex{
 
       System.out.println("面積は"+ (x * y)/2 + "です。");  
     }
-}    
+}
+
+class Ex2_7 extends Ex{
+    void execute(){
+  
+      Random rnd = new Random();
+
+      int x = rnd.nextInt(9)+1;
+      System.out.println("1から１０まで:"+x);
+
+      int y = rnd.nextInt(9)-9;
+      System.out.println("-9から-1まで:"+y);
+
+      int z = rnd.nextInt(90)+10;
+      System.out.println("１０から９９まで:"+z);
+   }
+}
+
+class Ex2_8 extends Ex{
+  void execute(){
+  
+    Scanner stdIn = new Scanner(System.in);
+    Random rnd = new Random();
+
+    int x =
+
+    int y =rnd.nextInt(11)-5;
+
+    System.out.println(x + y);
+
+  
+  }
+}
+
+
+
+
 
 class Ex2_000 extends Ex{
 	void execute(){
@@ -158,6 +194,10 @@ public class Ex2 {
         a = new Ex2_5();
         a.execute();
         a = new Ex2_6();
+        a.execute();
+        a = new Ex2_7();
+        a.execute();
+        a = new Ex2_8();
         a.execute();
 	}
 
